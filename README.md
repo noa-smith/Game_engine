@@ -23,27 +23,15 @@ Android-focused work includes:
 ## Demo Video
 
 Add your video link here:
-- [\[(https://youtu.be/-rpVxXH-bqM)\]]
+- \[(https://youtu.be/-rpVxXH-bqM)\]
 
-You can use either of these embed options.
 
-### Markdown Link (simple and reliable)
+### Markdown Link
 
 [Watch the demo video](https://youtu.be/-rpVxXH-bqM)
 
-### HTML Embed (GitHub may not always render iframes)
 
-```html
-<iframe
-  width="560"
-  height="315"
-  src="https://youtu.be/-rpVxXH-bqM"
-  title="Game Engine Demo"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-  allowfullscreen>
-</iframe>
-```
+
 
 ## Acknowledgments
 
