@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094D86A02F3289F6002C082F /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094D869F2F3289F6002C082F /* SDL2.framework */; };
+		094D86A12F3289F6002C082F /* SDL2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 094D869F2F3289F6002C082F /* SDL2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		094D86A42F328A0A002C082F /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094D86A32F328A0A002C082F /* SDL2_image.framework */; };
+		094D86A52F328A0A002C082F /* SDL2_image.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 094D86A32F328A0A002C082F /* SDL2_image.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		094D86A72F328A16002C082F /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094D86A62F328A16002C082F /* SDL2_mixer.framework */; };
+		094D86A82F328A16002C082F /* SDL2_mixer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 094D86A62F328A16002C082F /* SDL2_mixer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		094D86AA2F328A22002C082F /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 094D86A92F328A22002C082F /* SDL2_ttf.framework */; };
+		094D86AB2F328A22002C082F /* SDL2_ttf.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 094D86A92F328A22002C082F /* SDL2_ttf.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		094D86A22F3289F6002C082F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				094D86AB2F328A22002C082F /* SDL2_ttf.framework in Embed Frameworks */,
+				094D86A82F328A16002C082F /* SDL2_mixer.framework in Embed Frameworks */,
+				094D86A12F3289F6002C082F /* SDL2.framework in Embed Frameworks */,
+				094D86A52F328A0A002C082F /* SDL2_image.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F176572F213EA5005782CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		093E90D62F465E920015E70C /* sdl_user_input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sdl_user_input.txt; sourceTree = "<group>"; };
+		094D869F2F3289F6002C082F /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = SDL2/lib/SDL2.framework; sourceTree = "<group>"; };
+		094D86A32F328A0A002C082F /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = SDL2_img/lib/SDL2_image.framework; sourceTree = "<group>"; };
+		094D86A62F328A16002C082F /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = SDL2_mix/lib/SDL2_mixer.framework; sourceTree = "<group>"; };
+		094D86A92F328A22002C082F /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = SDL2_ttf/lib/SDL2_ttf.framework; sourceTree = "<group>"; };
+		0975F41C2F840D4C00A79036 /* Controller.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = Controller.lua; sourceTree = "<group>"; };
+		0975F41D2F840D4C00A79036 /* SpriteRenderer.lua */ = {isa = PBXFileReference; lastKnownFileType = text; path = SpriteRenderer.lua; sourceTree = "<group>"; };
+		0975F41F2F840D4C00A79036 /* box1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box1.png; sourceTree = "<group>"; };
+		0975F4202F840D4C00A79036 /* box2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box2.png; sourceTree = "<group>"; };
+		0975F4222F840D4C00A79036 /* basic.scene */ = {isa = PBXFileReference; lastKnownFileType = text; path = basic.scene; sourceTree = "<group>"; };
+		0975F4242F840D4C00A79036 /* game.config */ = {isa = PBXFileReference; lastKnownFileType = text; path = game.config; sourceTree = "<group>"; };
+		0975F4252F840D4C00A79036 /* rendering.config */ = {isa = PBXFileReference; lastKnownFileType = text; path = rendering.config; sourceTree = "<group>"; };
+		09D341912F3F8CD3009A2E3B /* render_logger.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = render_logger.txt; sourceTree = "<group>"; };
+		09F176592F213EA5005782CA /* game_engine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = game_engine; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		09BFEE502F21470200A18F4F /* Exceptions for "ThirdParty" folder in "game_engine" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				box2d/src/collision/b2_broad_phase.cpp,
+				box2d/src/collision/b2_chain_shape.cpp,
+				box2d/src/collision/b2_circle_shape.cpp,
+				box2d/src/collision/b2_collide_circle.cpp,
+				box2d/src/collision/b2_collide_edge.cpp,
+				box2d/src/collision/b2_collide_polygon.cpp,
+				box2d/src/collision/b2_collision.cpp,
+				box2d/src/collision/b2_distance.cpp,
+				box2d/src/collision/b2_dynamic_tree.cpp,
+				box2d/src/collision/b2_edge_shape.cpp,
+				box2d/src/collision/b2_polygon_shape.cpp,
+				box2d/src/collision/b2_time_of_impact.cpp,
+				box2d/src/common/b2_block_allocator.cpp,
+				box2d/src/common/b2_draw.cpp,
+				box2d/src/common/b2_math.cpp,
+				box2d/src/common/b2_settings.cpp,
+				box2d/src/common/b2_stack_allocator.cpp,
+				box2d/src/common/b2_timer.cpp,
+				box2d/src/dynamics/b2_body.cpp,
+				box2d/src/dynamics/b2_chain_circle_contact.cpp,
+				box2d/src/dynamics/b2_chain_polygon_contact.cpp,
+				box2d/src/dynamics/b2_circle_contact.cpp,
+				box2d/src/dynamics/b2_contact_manager.cpp,
+				box2d/src/dynamics/b2_contact_solver.cpp,
+				box2d/src/dynamics/b2_contact.cpp,
+				box2d/src/dynamics/b2_distance_joint.cpp,
+				box2d/src/dynamics/b2_edge_circle_contact.cpp,
+				box2d/src/dynamics/b2_edge_polygon_contact.cpp,
+				box2d/src/dynamics/b2_fixture.cpp,
+				box2d/src/dynamics/b2_friction_joint.cpp,
+				box2d/src/dynamics/b2_gear_joint.cpp,
+				box2d/src/dynamics/b2_island.cpp,
+				box2d/src/dynamics/b2_joint.cpp,
+				box2d/src/dynamics/b2_motor_joint.cpp,
+				box2d/src/dynamics/b2_mouse_joint.cpp,
+				box2d/src/dynamics/b2_polygon_circle_contact.cpp,
+				box2d/src/dynamics/b2_polygon_contact.cpp,
+				box2d/src/dynamics/b2_prismatic_joint.cpp,
+				box2d/src/dynamics/b2_pulley_joint.cpp,
+				box2d/src/dynamics/b2_revolute_joint.cpp,
+				box2d/src/dynamics/b2_weld_joint.cpp,
+				box2d/src/dynamics/b2_wheel_joint.cpp,
+				box2d/src/dynamics/b2_world_callbacks.cpp,
+				box2d/src/dynamics/b2_world.cpp,
+				box2d/src/rope/b2_rope.cpp,
+				glm/glm/detail/glm.cpp,
+				lua/lapi.c,
+				lua/lauxlib.c,
+				lua/lbaselib.c,
+				lua/lcode.c,
+				lua/lcorolib.c,
+				lua/lctype.c,
+				lua/ldblib.c,
+				lua/ldebug.c,
+				lua/ldo.c,
+				lua/ldump.c,
+				lua/lfunc.c,
+				lua/lgc.c,
+				lua/linit.c,
+				lua/liolib.c,
+				lua/llex.c,
+				lua/lmathlib.c,
+				lua/lmem.c,
+				lua/loadlib.c,
+				lua/lobject.c,
+				lua/lopcodes.c,
+				lua/loslib.c,
+				lua/lparser.c,
+				lua/lstate.c,
+				lua/lstring.c,
+				lua/lstrlib.c,
+				lua/ltable.c,
+				lua/ltablib.c,
+				lua/ltm.c,
+				lua/lundump.c,
+				lua/lutf8lib.c,
+				lua/lvm.c,
+				lua/lzio.c,
+			);
+			target = 09F176582F213EA5005782CA /* game_engine */;
+		};
+		09BFEE542F21478900A18F4F /* Exceptions for "FirstParty" folder in "game_engine" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Actor.cpp,
+				AndroidPlatformServices.cpp,
+				AudioDB.cpp,
+				ComponentDB.cpp,
+				ContactListener.cpp,
+				Engine.cpp,
+				ImageDB.cpp,
+				Input.cpp,
+				Physics.cpp,
+				PlatformContext.cpp,
+				Renderer.cpp,
+				RigidBody2D.cpp,
+				Scene.cpp,
+				Template.cpp,
+				textDB.cpp,
+			);
+			target = 09F176582F213EA5005782CA /* game_engine */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		09D92C6F2F4F528300D5FD6F /* Exceptions for "ThirdParty" folder in "Compile Sources" phase from "game_engine" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 09F176552F213EA5005782CA /* Sources */;
+			membershipExceptions = (
+				box2d/src/dynamics/b2_chain_circle_contact.h,
+				box2d/src/dynamics/b2_chain_polygon_contact.h,
+				box2d/src/dynamics/b2_circle_contact.h,
+				box2d/src/dynamics/b2_contact_solver.h,
+				box2d/src/dynamics/b2_edge_circle_contact.h,
+				box2d/src/dynamics/b2_edge_polygon_contact.h,
+				box2d/src/dynamics/b2_island.h,
+				box2d/src/dynamics/b2_polygon_circle_contact.h,
+				box2d/src/dynamics/b2_polygon_contact.h,
+				lua/lapi.h,
+				lua/lauxlib.h,
+				lua/lcode.h,
+				lua/lctype.h,
+				lua/ldebug.h,
+				lua/ldo.h,
+				lua/lfunc.h,
+				lua/lgc.h,
+				lua/ljumptab.h,
+				lua/llex.h,
+				lua/llimits.h,
+				lua/lmem.h,
+				lua/lobject.h,
+				lua/lopcodes.h,
+				lua/lopnames.h,
+				lua/lparser.h,
+				lua/lprefix.h,
+				lua/lstate.h,
+				lua/lstring.h,
+				lua/ltable.h,
+				lua/ltm.h,
+				lua/lua.h,
+				lua/lua.hpp,
+				lua/luaconf.h,
+				lua/lualib.h,
+				lua/lundump.h,
+				lua/lvm.h,
+				lua/lzio.h,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		09BFE77D2F21466F00A18F4F /* FirstParty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				09BFEE542F21478900A18F4F /* Exceptions for "FirstParty" folder in "game_engine" target */,
+			);
+			path = FirstParty;
+			sourceTree = "<group>";
+		};
+		09BFE77E2F21467700A18F4F /* ThirdParty */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				09BFEE502F21470200A18F4F /* Exceptions for "ThirdParty" folder in "game_engine" target */,
+				09D92C6F2F4F528300D5FD6F /* Exceptions for "ThirdParty" folder in "Compile Sources" phase from "game_engine" target */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09F176562F213EA5005782CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				094D86AA2F328A22002C082F /* SDL2_ttf.framework in Frameworks */,
+				094D86A72F328A16002C082F /* SDL2_mixer.framework in Frameworks */,
+				094D86A02F3289F6002C082F /* SDL2.framework in Frameworks */,
+				094D86A42F328A0A002C082F /* SDL2_image.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		094D869E2F3289F5002C082F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				094D86A92F328A22002C082F /* SDL2_ttf.framework */,
+				094D86A62F328A16002C082F /* SDL2_mixer.framework */,
+				094D86A32F328A0A002C082F /* SDL2_image.framework */,
+				094D869F2F3289F6002C082F /* SDL2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0975F41E2F840D4C00A79036 /* component_types */ = {
+			isa = PBXGroup;
+			children = (
+				0975F41C2F840D4C00A79036 /* Controller.lua */,
+				0975F41D2F840D4C00A79036 /* SpriteRenderer.lua */,
+			);
+			path = component_types;
+			sourceTree = "<group>";
+		};
+		0975F4212F840D4C00A79036 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0975F41F2F840D4C00A79036 /* box1.png */,
+				0975F4202F840D4C00A79036 /* box2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		0975F4232F840D4C00A79036 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0975F4222F840D4C00A79036 /* basic.scene */,
+			);
+			path = scenes;
+			sourceTree = "<group>";
+		};
+		0975F4262F840D4C00A79036 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				0975F41E2F840D4C00A79036 /* component_types */,
+				0975F4212F840D4C00A79036 /* images */,
+				0975F4232F840D4C00A79036 /* scenes */,
+				0975F4242F840D4C00A79036 /* game.config */,
+				0975F4252F840D4C00A79036 /* rendering.config */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		09BFE77C2F21465900A18F4F /* src */ = {
+			isa = PBXGroup;
+			children = (
+				09BFE77D2F21466F00A18F4F /* FirstParty */,
+				09BFE77E2F21467700A18F4F /* ThirdParty */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		09F176502F213EA5005782CA = {
+			isa = PBXGroup;
+			children = (
+				0975F4262F840D4C00A79036 /* resources */,
+				093E90D62F465E920015E70C /* sdl_user_input.txt */,
+				09D341912F3F8CD3009A2E3B /* render_logger.txt */,
+				09BFE77C2F21465900A18F4F /* src */,
+				094D869E2F3289F5002C082F /* Frameworks */,
+				09F1765A2F213EA5005782CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09F1765A2F213EA5005782CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09F176592F213EA5005782CA /* game_engine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09F176582F213EA5005782CA /* game_engine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09F176602F213EA5005782CA /* Build configuration list for PBXNativeTarget "game_engine" */;
+			buildPhases = (
+				09F176552F213EA5005782CA /* Sources */,
+				09F176562F213EA5005782CA /* Frameworks */,
+				09F176572F213EA5005782CA /* CopyFiles */,
+				094D86A22F3289F6002C082F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = game_engine;
+			packageProductDependencies = (
+			);
+			productName = game_engine;
+			productReference = 09F176592F213EA5005782CA /* game_engine */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09F176512F213EA5005782CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					09F176582F213EA5005782CA = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 09F176542F213EA5005782CA /* Build configuration list for PBXProject "game_engine" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09F176502F213EA5005782CA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 09F1765A2F213EA5005782CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09F176582F213EA5005782CA /* game_engine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09F176552F213EA5005782CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		09F1765E2F213EA5005782CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8W68729XNH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		09F1765F2F213EA5005782CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8W68729XNH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		09F176612F213EA5005782CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W68729XNH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDL2/lib",
+					"$(PROJECT_DIR)/SDL2_img/lib",
+					"$(PROJECT_DIR)/SDL2_mix/lib",
+					"$(PROJECT_DIR)/SDL2_ttf/lib",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"src/ThirdParty/glm\"",
+					"\"$(PROJECT_DIR)\"",
+					"\"src/ThirdParty/rapidjson-1.1.0/include\"",
+					"\"$(PROJECT_DIR)/SDL2\"",
+					"\"src/ThirdParty/lua\"",
+					"\"src/ThirdParty/LuaBridge\"",
+					"\"src/ThirdParty/box2d/include\"",
+					"\"$(PROJECT_DIR)/src/ThirdParty\"",
+					"\"src/ThirdParty/box2d/src/\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SDL2/lib",
+					"$(PROJECT_DIR)/SDL2_ttf/lib",
+					"$(PROJECT_DIR)/SDL2_mix/lib",
+					"$(PROJECT_DIR)/SDL2_img/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		09F176622F213EA5005782CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W68729XNH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDL2/lib",
+					"$(PROJECT_DIR)/SDL2_img/lib",
+					"$(PROJECT_DIR)/SDL2_mix/lib",
+					"$(PROJECT_DIR)/SDL2_ttf/lib",
+				);
+				HEADER_SEARCH_PATHS = (
+					"\"src/ThirdParty/glm\"",
+					"\"$(PROJECT_DIR)\"",
+					"\"src/ThirdParty/rapidjson-1.1.0/include\"",
+					"\"$(PROJECT_DIR)/SDL2\"",
+					"\"src/ThirdParty/lua\"",
+					"\"src/ThirdParty/LuaBridge\"",
+					"\"src/ThirdParty/box2d/include\"",
+					"\"$(PROJECT_DIR)/src/ThirdParty\"",
+					"\"src/ThirdParty/box2d/src/\"",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SDL2/lib",
+					"$(PROJECT_DIR)/SDL2_ttf/lib",
+					"$(PROJECT_DIR)/SDL2_mix/lib",
+					"$(PROJECT_DIR)/SDL2_img/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09F176542F213EA5005782CA /* Build configuration list for PBXProject "game_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F1765E2F213EA5005782CA /* Debug */,
+				09F1765F2F213EA5005782CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09F176602F213EA5005782CA /* Build configuration list for PBXNativeTarget "game_engine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F176612F213EA5005782CA /* Debug */,
+				09F176622F213EA5005782CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09F176512F213EA5005782CA /* Project object */;
+}

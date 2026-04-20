@@ -1,0 +1,1091 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2/android-project/app/build/intermediates/cxx/RelWithDebInfo/1v1t6v55/obj/x86_64/libmain.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_compile_features"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 73,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 297,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 101,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "__ANDROID__"
+				},
+				{
+					"define" : "main_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/sdl_compat"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/FirstParty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/box2d/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/box2d/include/box2d"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/box2d/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/glm"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/lua"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/LuaBridge"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/LuaBridge/detail"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/rapidjson-1.1.0/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2_img"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2_mix"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2_ttf"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					7
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/knowajo/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -g -DNDEBUG -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "__ANDROID__"
+				},
+				{
+					"define" : "main_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/sdl_compat"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/FirstParty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/box2d/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/box2d/include/box2d"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/box2d/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/glm"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/lua"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/LuaBridge"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/LuaBridge/detail"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/src/ThirdParty/rapidjson-1.1.0/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2_img"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2_mix"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/Users/knowajo/Library/CloudStorage/SynologyDrive-UMG/Senior/EECS_498/GameEngine/Game_engine_rebuild/game_engine_noasmith/SDL2_ttf"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92
+			],
+			"sysroot" : 
+			{
+				"path" : "/Users/knowajo/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Wl,--no-undefined -Qunused-arguments",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../src/main/jniLibs/x86_64/libSDL2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../src/main/jniLibs/x86_64/libSDL2_image.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../src/main/jniLibs/x86_64/libSDL2_mixer.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "../../../../src/main/jniLibs/x86_64/libSDL2_ttf.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-landroid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-lGLESv2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/Users/knowajo/Library/Android/sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/darwin-x86_64/sysroot"
+		}
+	},
+	"name" : "main",
+	"nameOnDisk" : "libmain.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Actor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/AndroidPlatformServices.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/AudioDB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/ComponentDB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/ContactListener.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/DesktopPlatformServices.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Engine.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/ImageDB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Input.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Physics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/PlatformContext.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Renderer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/RigidBody2D.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Scene.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/Template.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/FirstParty/textDB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_broad_phase.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_chain_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_circle_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_collide_circle.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_collide_edge.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_collide_polygon.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_collision.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_distance.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_dynamic_tree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_edge_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_polygon_shape.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/collision/b2_time_of_impact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/common/b2_block_allocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/common/b2_draw.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/common/b2_math.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/common/b2_settings.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/common/b2_stack_allocator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/common/b2_timer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_body.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_chain_circle_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_chain_polygon_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_circle_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_contact_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_contact_solver.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_distance_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_edge_circle_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_edge_polygon_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_fixture.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_friction_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_gear_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_island.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_motor_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_mouse_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_polygon_circle_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_polygon_contact.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_prismatic_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_pulley_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_revolute_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_weld_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_wheel_joint.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_world.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/dynamics/b2_world_callbacks.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ThirdParty/box2d/src/rope/b2_rope.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lapi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lauxlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lbaselib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lcode.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lcorolib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lctype.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ldblib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ldebug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ldo.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ldump.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lfunc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lgc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/linit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/liolib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/llex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lmathlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/loadlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lobject.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lopcodes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/loslib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lparser.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lstate.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lstring.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lstrlib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ltable.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ltablib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/ltm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lundump.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lutf8lib.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lvm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/ThirdParty/lua/lzio.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}
